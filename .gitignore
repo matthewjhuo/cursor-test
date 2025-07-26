@@ -1,0 +1,127 @@
+# MX25L1605 SPI Flash Verification Environment
+# .gitignore file
+
+# Simulation generated files
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.out
+*.log
+dump.vcd
+
+# Compilation temporary files
+*.o
+*.so
+*.dll
+*.dylib
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Python bytecode (if any Python scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
+log/
+logs/
+
+# Temporary directories
+tmp/
+temp/
+
+# Coverage reports (if coverage tools are used)
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation generated files
+doc/html/
+doc/latex/
+
+# Simulation work directories
+work/
+transcript
+vsim.wlf
+
+# Mentor Graphics
+modelsim.ini
+transcript
+vsim.wlf
+wlf*
+
+# Synopsys
+*.syn
+*.svf
+*.sdc
+
+# Cadence
+*.log
+*.trn
+*.dsn
+*.ses
+*.cds
+.simvision/
+
+# Xilinx
+*.jou
+*.log
+*.backup.*
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+
+# Altera/Intel
+*.qpf
+*.qsf
+*.bsf
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.jpg
+*.mif
+*.pin
+*.pof
+*.ptf.*
+*.qar
+*.qarlog
+*.qws
+*.rpt
+*.smsg
+*.sof
+*.sopc_builder
+*.summary
+*.tcl
+*.txt
+*.xml
+db/
+incremental_db/
+output_files/
